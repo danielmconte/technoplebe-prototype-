@@ -1,0 +1,98 @@
+
+@media only screen and (min-width: 975px) {
+
+
+#tech-block {
+    display: inline-block;
+    width: 20vw;
+    max-width: 20vw;
+
+
+   
+}
+
+}
+
+
+
+
+#tech-block {
+    margin: 10px 10px;
+    height: 200px;
+    background-color: black;
+    // background-color: rgb(4, 4, 49);
+    border-radius: 10px;
+    border: 5px solid rgb(4, 4, 49);
+    box-shadow: 5px 5px 1px 1px whitesmoke;
+  
+  
+
+    &:active{
+        transform: scale(.98);
+    
+    }
+    
+}
+
+
+
+#inner-border {
+    border-radius: 10px;
+    background-color: slateblue;
+    margin: 10px auto 5px auto;
+    height: 90%;
+    max-width: 90%;
+    border: 2px solid aquamarine;
+}
+
+#inner-text{
+    font-family: 'Orbitron', Courier, monospace;
+ 
+    color: aquamarine;
+  
+
+}
+
+.examples {
+    margin-top: 10px;
+    list-style-type: none;
+    font-family: 'Open Sans Condensed', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: aquamarine;
+
+}
+
+// This is for the black text box, should move to own scss file
+.blackbox {
+    display: block;
+    margin: 10px auto auto auto;
+    background-color: black;
+    height:500px;
+    width: 75vw;
+    border-radius: 50px;
+    border: 5px solid aquamarine;
+    box-shadow: 12px 12px 1px 5px slategrey;
+    // max-width: 50vw;
+  }
+
+ .green-text {
+    margin: 0px 5vw;
+    text-align: left;
+    font-family: 'Monaco', monospace;
+ 
+    color: aquamarine;
+ } 
+
+.red-text {
+    font-family: 'Orbitron', Courier, monospace;
+    color: red;
+
+}
+.gray-text {
+    margin: 0px 5vw;
+    text-align: left;
+    font-family: Courier, monospace;
+    color: gray;
+
+}
